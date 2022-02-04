@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To-do List</title>
+    <meta charset="UTF-8">
+    <link href="Style/estilo.css" rel="stylesheet">
+</head>
+<body>
+    
+    <h1> To-do List </h1>
+
+    <div id="lista">
+        <ul></ul>
+        <br>
+        <h3 id="adicionar" onclick="hide()"> + Adicionar Item </h3>
+        <div id="form">
+            <input type="text" id="text">
+            <input type="button" value="Go" id="go" onclick="add()">
+            <input type="button" value="X" id="x" onclick="hide()">
+        </div>
+        <br>
+        <br>
+    </div>
+    
+    <script src="Scripts/script.js"></script>
+</body>
+</html>
